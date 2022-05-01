@@ -39,9 +39,6 @@ form button{
     margin: 1%;
 }
 
-form button:hover{
-    
-}
 
 /*Grid de produtos*/
 .container{
@@ -103,8 +100,8 @@ h3 {
         padding: 15px;
         border-radius: 5px;
         transition: .5s;
-    }
-
+    } 
+ 
 .btn:hover{
     background-color: #000;
     border-bottom: 5px solid #fff;
@@ -121,4 +118,19 @@ footer{
     border-top: 3px solid #fff;
     text-align: center;
     padding: 35px;
+}
+
+@media screen and (max-width: 768px){
+    section, .card {
+        width: 100%;
+        max-width: 980px;
+        margin:auto; 
+    } 
+}
+@media screen and (max-width: 768px){
+    section, .card {
+        width: 100%;
+        max-width: 600px;
+        margin:auto;  
+    }
 }
