@@ -148,6 +148,13 @@ footer{
 @media screen and (max-width: 768px){
     section, .skate {
         width: 100%;
+        max-width: 980px;
+        margin:auto; 
+    } 
+}
+@media screen and (max-width: 768px){
+    section, .skate {
+        width: 100%;
         max-width: 600px;
         margin:auto;  
     }
