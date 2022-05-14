@@ -12,6 +12,7 @@ header{
     padding: 70px;
     text-align: center;
     border-bottom: 2px solid #fff;
+    
 }
 
 header img{
@@ -119,6 +120,45 @@ h3 {
     border-right: 5px solid #fff;
     border-top: 5px solid #fff;
 
+}
+
+.frase{
+    text-align: center;
+    height: 21vh;
+    display: inline-block;
+    padding: 75px;
+    
+}
+
+mark{
+    font-size: 45px;
+    color: #fff;
+    background-color: #000;
+    font-style: oblique;
+    
+
+}
+ 
+.picos{
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    padding: 50px;
+}
+
+h4, {
+    margin-bottom: 10px;
+    color: #fff;
+    text-align: center;
+    padding-left: 15px;
+    font-size: 24px;
+    
+    
+}
+
+ul{
+    font-size: 25px;
+    color: #fff;
 }
 
 /*FOOTER*/
