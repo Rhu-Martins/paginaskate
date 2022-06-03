@@ -5,23 +5,62 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-/* Cabeçalho */
-header{
-    background-color: black;
+nav{
+    background-color: #000;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    height: 80px;
+    border-bottom: solid #fff 3px;
+}
+
+nav .logo{
     color: #fff;
-    padding: 70px;
-    text-align: center;
-    border-bottom: 2px solid #fff;
+    float: left;
+    display: block;
+    padding: 14px 16px;
+    font-size: 35px;
+}
+
+nav a{
+    color: #fff;
+    float: right;
+    text-decoration: none;
+    display: block;
+    padding: 14px 16px;
+    font-size: 25px;
+}
+
+nav h1{
+    display: inline-block;
+    padding-left: 490px;
+    padding-top: 25px;
+    width: 5px;
     
 }
 
-header img{
-    width: 3vh;
-    height: 3vh;
-    display: inline-block;
-    margin: 1%;
-    
+nav a:hover{
+    transition: 0.5s;
+    background-color: red;
+    color: #fff;
+    padding: 0.2em;
+    border-bottom: solid #fff 3px;
+    border-top: solid #fff 3px;
+    border-left: solid #fff 3px;
+    border-right: solid #fff 3px;
 }
+
+
+/* Cabeçalho */
+/*header{
+    background-color: black;
+    color: #fff;
+
+    padding: 70px;
+    text-align: center; 
+    display: fixed;
+    margin-bottom: #fff 5px;
+}*/
 
 form input, form button{
     font-size: 1em;
@@ -70,6 +109,7 @@ form button{
     height: 21vh;
     display: inline-block;    
     padding: 1px;
+    border-top: 350px;
 }
 
 .product-skate {
@@ -146,20 +186,9 @@ mark{
     padding: 50px;
 }
 
-h4, {
-    margin-bottom: 10px;
-    color: #fff;
-    text-align: center;
-    padding-left: 15px;
-    font-size: 24px;
-    
-    
-}
 
-ul{
-    font-size: 25px;
-    color: #fff;
-}
+
+
 
 /*FOOTER*/
 footer{
