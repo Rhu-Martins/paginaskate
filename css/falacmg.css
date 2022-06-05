@@ -33,7 +33,7 @@ nav a{
 
 nav h1{
     display: inline-block;
-    padding-left: 335px;
+    padding-left: 330px;
     padding-top: 12px;
     width: 15px;
 }
@@ -94,12 +94,11 @@ form button{
     margin: 0 auto;
 }
 .card {
-    width: 1200px;
+    width: 31%;
     height: 21vh;
-    display: inline-block;    
-    padding: 1px;
-    border-top: 350px;
-    color: #fff;
+    display: inline-block;
+    margin: 1% 1%;
+    padding: 50px;   
 }
 
 .product-image {
@@ -109,13 +108,12 @@ form button{
     margin-bottom: 10px;
 }
 
-.skate{
+.contato{
     width: 1200px;
     height: 21vh;
     display: inline-block;    
-    padding: 1px;
+    padding: 15px;
     border-top: 350px;
-    color: #fff;
 }
 
 .product-skate {
@@ -157,6 +155,10 @@ h3 {
         padding: 15px;
         border-radius: 5px;
         transition: .5s;
+        border-bottom: solid #fff 1px;
+        border-top: solid #fff 1px;
+        border-left: solid #fff 1px;
+        border-right: solid #fff 1px;
     } 
  
 .btn:hover{
