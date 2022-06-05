@@ -54,18 +54,6 @@ nav a:hover{
     border-right: solid #fff 3px;
 }
 
-
-/* Cabeçalho */
-/*header{
-    background-color: black;
-    color: #fff;
-
-    padding: 70px;
-    text-align: center; 
-    display: fixed;
-    margin-bottom: #fff 5px;
-}*/
-
 form input, form button{
     font-size: 1em;
     border-radius: 0.5em;
@@ -81,17 +69,17 @@ form button{
     margin: 1%;
 }
 
-
-/*Grid de produtos*/
 .container{
+    text-align: center;
     background-color: black;
     min-height: 60vh;
     padding: 50px;
 }
 
 .Products-container{
-    max-width: 1200px;
-    margin: 0 auto;
+   width: 50%;
+   display: inline-block;
+    
 }
 .card {
     width: 31%;
@@ -109,11 +97,17 @@ form button{
 }
 
 .contato{
-    width: 1200px;
+    width: 75%;
     height: 21vh;
     display: inline-block;    
     padding: 15px;
     border-top: 350px;
+}
+
+.midias{
+    width: 50%;
+    display: inline-block;
+    padding-bottom: 15px;
 }
 
 .product-skate {
@@ -121,7 +115,6 @@ form button{
     width: 50%;
     margin-bottom: 10px;
 }
-
 
 h3 {
     margin-bottom: 10px;
@@ -170,34 +163,6 @@ h3 {
 
 }
 
-.frase{
-    text-align: center;
-    height: 21vh;
-    display: inline-block;
-    padding: 75px;
-    
-}
-
-mark{
-    font-size: 45px;
-    color: #fff;
-    background-color: #000;
-    font-style: oblique;
-    
-
-}
- 
-.picos{
-    display: inline-block;
-    text-align: center;
-    width: 100%;
-    padding: 50px;
-}
-
-
-
-
-
 /*FOOTER*/
 footer{
     background-color: black;
@@ -238,6 +203,44 @@ footer{
 }
 
 @media screen and (max-width: 768px){
+    section, h1 {
+        width: 100%;
+        max-width: 600px;
+        
+    }
+}
+
+@media screen and (max-width: 998px){
+    section, .card {
+        width: 100%;
+        max-width: 980px;
+        margin:auto; 
+    } 
+}
+@media screen and (max-width: 998px){
+    section, .card {
+        width: 100%;
+        max-width: 600px;
+        margin:auto;  
+    }
+}
+
+@media screen and (max-width: 998px){
+    section, .skate {
+        width: 100%;
+        max-width: 980px;
+        margin:auto; 
+    } 
+}
+@media screen and (max-width: 998px){
+    section, .skate {
+        width: 100%;
+        max-width: 600px;
+        margin:auto;  
+    }
+}
+
+@media screen and (max-width: 998px){
     section, h1 {
         width: 100%;
         max-width: 600px;

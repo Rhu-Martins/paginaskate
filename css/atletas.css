@@ -179,7 +179,11 @@ mark{
 }
 
 
-
+ .logoskate{
+     display: inline-block;
+     text-align: center;
+     width: 50%;
+ }
 
 
 /*FOOTER*/
@@ -189,6 +193,23 @@ footer{
     border-top: 3px solid #fff;
     text-align: center;
     padding: 35px;
+}
+
+
+@media screen and (max-width: 998px){
+    section, nav{
+        width: 100%;
+        max-width: 980px;
+        margin:auto; 
+    } 
+}
+
+@media screen and (max-width: 768px){
+    section, nav{
+        width: 100%;
+        max-width: 980px;
+        margin:auto; 
+    } 
 }
 
 @media screen and (max-width: 768px){

@@ -87,11 +87,12 @@ form button{
     background-color: black;
     min-height: 60vh;
     padding: 50px;
+    padding-bottom: 30px;
 }
 
 .Products-container{
     max-width: 1200px;
-    margin: 0 auto;
+    margin: auto;
 }
 .card {
     width: 1200px;
@@ -115,14 +116,17 @@ form button{
     display: inline-block;    
     padding: 1px;
     border-top: 350px;
+    border-bottom: 15px;
     color: #fff;
 }
 
 .product-skate {
     color: #fff;
-    width: 50%;
-    margin-bottom: 10px;
+    width: 100%;
+    
+    padding-bottom: 5px;
 }
+
 
 
 h3 {
@@ -197,7 +201,7 @@ mark{
 
 
 /*FOOTER*/
-footer{
+footer{ 
     background-color: black;
     color: #fff;
     border-top: 3px solid #fff;
@@ -236,6 +240,44 @@ footer{
 }
 
 @media screen and (max-width: 768px){
+    section, h1 {
+        width: 100%;
+        max-width: 600px;
+        
+    }
+}
+
+@media screen and (max-width: 998px){
+    section, .card {
+        width: 100%;
+        max-width: 980px;
+        margin:auto; 
+    } 
+}
+@media screen and (max-width: 998px){
+    section, .card {
+        width: 100%;
+        max-width: 600px;
+        margin:auto;  
+    }
+}
+
+@media screen and (max-width: 998px){
+    section, .skate {
+        width: 100%;
+        max-width: 980px;
+        margin:auto; 
+    } 
+}
+@media screen and (max-width: 998px){
+    section, .skate {
+        width: 100%;
+        max-width: 600px;
+        margin:auto;  
+    }
+}
+
+@media screen and (max-width: 998px){
     section, h1 {
         width: 100%;
         max-width: 600px;

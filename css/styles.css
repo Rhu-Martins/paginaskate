@@ -167,10 +167,7 @@ h3 {
 }
 
 .frase{
-    text-align: center;
-    height: 21vh;
-    display: inline-block;
-    padding: 75px;
+    text-align: center; 
     
 }
 
@@ -190,7 +187,10 @@ mark{
     padding: 50px;
 }
 
-
+ .logoskate{
+    width: 100%;
+    padding-top: 35px;
+}
 
 
 
@@ -234,6 +234,44 @@ footer{
 }
 
 @media screen and (max-width: 768px){
+    section, h1 {
+        width: 100%;
+        max-width: 600px;
+        
+    }
+}
+
+@media screen and (max-width: 998px){
+    section, .card {
+        width: 100%;
+        max-width: 980px;
+        margin:auto; 
+    } 
+}
+@media screen and (max-width: 998px){
+    section, .card {
+        width: 100%;
+        max-width: 600px;
+        margin:auto;  
+    }
+}
+
+@media screen and (max-width: 998px){
+    section, .skate {
+        width: 100%;
+        max-width: 980px;
+        margin:auto; 
+    } 
+}
+@media screen and (max-width: 998px){
+    section, .skate {
+        width: 100%;
+        max-width: 600px;
+        margin:auto;  
+    }
+}
+
+@media screen and (max-width: 998px){
     section, h1 {
         width: 100%;
         max-width: 600px;
