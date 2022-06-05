@@ -33,7 +33,7 @@ nav a{
 
 nav h1{
     display: inline-block;
-    padding-left: 450px;
+    padding-left: 335px;
     padding-top: 12px;
     width: 15px;
 }
@@ -53,18 +53,6 @@ nav a:hover{
     border-left: solid #fff 3px;
     border-right: solid #fff 3px;
 }
-
-
-/* Cabeçalho */
-/*header{
-    background-color: black;
-    color: #fff;
-
-    padding: 70px;
-    text-align: center; 
-    display: fixed;
-    margin-bottom: #fff 5px;
-}*/
 
 form input, form button{
     font-size: 1em;
@@ -235,6 +223,14 @@ footer{
 
 @media screen and (max-width: 768px){
     section, h1 {
+        width: 100%;
+        max-width: 600px;
+        
+    }
+}
+
+@media screen and (max-width: 768px){
+    section, .nav{
         width: 100%;
         max-width: 600px;
         
