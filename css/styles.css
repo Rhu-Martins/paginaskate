@@ -90,15 +90,8 @@ form button{
 }
 
 .Products-container{
-    max-width: 1200px;
+    max-width: 75%;
     margin: 0 auto;
-}
-.card {
-    width: 31%;
-    height: 21vh;
-    display: inline-block;
-    margin: 1% 1%;
-    padding: 50px;   
 }
 
 .product-image {
@@ -109,11 +102,9 @@ form button{
 }
 
 .skate{
-    width: 1200px;
-    height: 21vh;
-    display: inline-block;    
-    padding: 1px;
-    border-top: 350px;
+    width: 1000px;
+    height: 8vh;
+    display: inline-block;   
 }
 
 .product-skate {
@@ -180,25 +171,27 @@ mark{
 
 }
  
-.picos{
-    display: inline-block;
-    text-align: center;
-    width: 100%;
-    padding: 50px;
-}
+ .rabiscoskt{
+     text-align: center;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    border-bottom: solid #fff 5px;
+    border-top:  solid #fff 5px;
+ }
 
  .logoskate{
-    width: 100%;
-    padding-top: 35px;
+    text-align: center;
+    width: 50%;
+    display: inline-block;
 }
 
 
 
 /*FOOTER*/
 footer{
+    width: 100%;
     background-color: black;
     color: #fff;
-    border-top: 3px solid #fff;
     text-align: center;
     padding: 35px;
 }

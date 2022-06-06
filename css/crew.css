@@ -85,13 +85,12 @@ form button{
 /*Grid de produtos*/
 .container{
     background-color: black;
-    min-height: 60vh;
     padding: 50px;
     padding-bottom: 30px;
 }
 
 .Products-container{
-    max-width: 1200px;
+    max-width: 75%;
     margin: auto;
 }
 .card {
@@ -105,13 +104,13 @@ form button{
 
 .product-image {
     color: #fff;
-    height: 40vh;
+    height: 70vh;
     width: 100%;
     margin-bottom: 10px;
 }
 
 .skate{
-    width: 1200px;
+    width: 100%;
     height: 21vh;
     display: inline-block;    
     padding: 1px;
@@ -120,10 +119,17 @@ form button{
     color: #fff;
 }
 
+.vdo{
+    text-align: center;
+    border-bottom: solid #fff 3px;
+    border-top: solid #fff 3px;
+    padding-top: 35px ;
+    padding-bottom: 35px ;
+}
 .product-skate {
     color: #fff;
     width: 100%;
-    
+
     padding-bottom: 5px;
 }
 
@@ -195,16 +201,20 @@ mark{
     width: 100%;
     padding: 50px;
 }
-
-
+.logoskate{
+    text-align: center;
+    width: 50%;
+    display: inline-block;
+}
 
 
 
 /*FOOTER*/
-footer{ 
+footer{
+    width: 100%;
     background-color: black;
     color: #fff;
-    border-top: 3px solid #fff;
+    border-top: solid #fff 3px;
     text-align: center;
     padding: 35px;
 }

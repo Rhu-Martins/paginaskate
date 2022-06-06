@@ -80,6 +80,7 @@ form button{
 .Products-container{
     max-width: 1200px;
     margin: 0 auto;
+    
 }
 .card {
     width: 31%;
@@ -179,18 +180,20 @@ mark{
 }
 
 
- .logoskate{
-     display: inline-block;
-     text-align: center;
-     width: 50%;
- }
+.logoskate{
+    text-align: center;
+    width: 50%;
+    display: inline-block;
+}
+
 
 
 /*FOOTER*/
 footer{
+    width: 100%;
     background-color: black;
     color: #fff;
-    border-top: 3px solid #fff;
+    border-top: solid #fff 3px;
     text-align: center;
     padding: 35px;
 }
