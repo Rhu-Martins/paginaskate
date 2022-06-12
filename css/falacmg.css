@@ -48,6 +48,7 @@ nav a:hover{
     background-color: red;
     color: #fff;
     padding: 0.2em;
+    border-radius: 10%;
     border-bottom: solid #fff 3px;
     border-top: solid #fff 3px;
     border-left: solid #fff 3px;
@@ -103,11 +104,18 @@ form button{
     padding: 15px;
     border-top: 350px;
 }
+ .midias :hover{
+    transform: rotateY(360deg);
+    transition: 1s;
+    transition-delay: 0.2s;
+ }
+
 
 .midias{
-    width: 50%;
+    width: 13%;
+    font-size: 20px;
     display: inline-block;
-    padding-bottom: 15px;
+    padding-top: 25px;
 }
 
 .product-skate {
@@ -117,6 +125,8 @@ form button{
 }
 
 h3 {
+    width: 100%;
+    margin-top: 10px;
     margin-bottom: 10px;
     color: #fff;
     text-align: center;
@@ -124,13 +134,7 @@ h3 {
     border-right: 5px solid #fff;
     border-top: 5px solid #fff;
     border-bottom: 5px solid #fff;
-    padding-left: 7px;
     font-size: 24px;
-    }
-
-    .card p{
-        margin-bottom: 10px;
-
     }
 
     .bold{
@@ -145,9 +149,9 @@ h3 {
         text-decoration: none;
         background-color: red;
         color: #fff;
-        padding: 15px;
+        padding: 8px;
         border-radius: 5px;
-        transition: .5s;
+        transition: .1s;
         border-bottom: solid #fff 1px;
         border-top: solid #fff 1px;
         border-left: solid #fff 1px;
@@ -156,10 +160,10 @@ h3 {
  
 .btn:hover{
     background-color: #000;
-    border-bottom: 5px solid #fff;
-    border-left: 5px solid #fff;
-    border-right: 5px solid #fff;
-    border-top: 5px solid #fff;
+    border-bottom: 3px solid #fff;
+    border-left: 3px solid #fff;
+    border-right: 3px solid #fff;
+    border-top: 3px solid #fff;
 
 }
 
@@ -168,9 +172,6 @@ h3 {
     width: 50%;
     display: inline-block;
 }
-
-
-
 /*FOOTER*/
 footer{
     width: 100%;
@@ -179,80 +180,4 @@ footer{
     border-top: solid #fff 3px;
     text-align: center;
     padding: 35px;
-}
-
-@media screen and (max-width: 768px){
-    section, .card {
-        width: 100%;
-        max-width: 980px;
-        margin:auto; 
-    } 
-}
-@media screen and (max-width: 768px){
-    section, .card {
-        width: 100%;
-        max-width: 600px;
-        margin:auto;  
-    }
-}
-
-@media screen and (max-width: 768px){
-    section, .skate {
-        width: 100%;
-        max-width: 980px;
-        margin:auto; 
-    } 
-}
-@media screen and (max-width: 768px){
-    section, .skate {
-        width: 100%;
-        max-width: 600px;
-        margin:auto;  
-    }
-}
-
-@media screen and (max-width: 768px){
-    section, h1 {
-        width: 100%;
-        max-width: 600px;
-        
-    }
-}
-
-@media screen and (max-width: 998px){
-    section, .card {
-        width: 100%;
-        max-width: 980px;
-        margin:auto; 
-    } 
-}
-@media screen and (max-width: 998px){
-    section, .card {
-        width: 100%;
-        max-width: 600px;
-        margin:auto;  
-    }
-}
-
-@media screen and (max-width: 998px){
-    section, .skate {
-        width: 100%;
-        max-width: 980px;
-        margin:auto; 
-    } 
-}
-@media screen and (max-width: 998px){
-    section, .skate {
-        width: 100%;
-        max-width: 600px;
-        margin:auto;  
-    }
-}
-
-@media screen and (max-width: 998px){
-    section, h1 {
-        width: 100%;
-        max-width: 600px;
-        
-    }
 }
